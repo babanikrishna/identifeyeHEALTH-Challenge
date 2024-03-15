@@ -54,6 +54,26 @@ The program handles the following edge cases:
 - If a patient with the given identifier does not exist when deleting a patient, the command is ignored.
 - If an exam with the given identifier does not exist when deleting an exam, the command is ignored.
 
+## Unit Tests
+
+The project includes a set of unit tests to verify the functionality of the program. The unit tests are located in the `PatientExamManagerTests` target within the Xcode project.
+
+To run the unit tests:
+
+1. Open the project in Xcode.
+
+2. Select the `PatientExamManagerTests` scheme from the scheme dropdown in the top-left corner of the Xcode window.
+3. Press `Cmd + U` or go to `Product -> Test` to run the unit tests.
+4. The test results will be displayed in the Xcode test navigator.
+
+The unit tests cover various scenarios and edge cases to ensure the correctness and reliability of the program. They test the functionality of adding and deleting patients and exams, as well as handling invalid commands and edge cases.
+
+The unit tests are implemented using the XCTest framework and are automatically executed as part of the project's test suite. Each test case is defined as a separate test method within the `PatientExamManagerTests` class.
+
+By running the unit tests, you can verify that the program behaves as expected and produces the correct output for different input scenarios.
+
+Feel free to explore the `PatientExamManagerTests.swift` file to see the specific test cases and their implementations.
+
 ## Requirements
 
 - Xcode 11 or later
