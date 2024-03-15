@@ -15,8 +15,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "452516202BA2699F004BB47A"
-               BuildableName = "identifeye HEALTH"
+               BlueprintIdentifier = "45A42BC02BA4232900440947"
+               BuildableName = "identifeye HEALTH.app"
                BlueprintName = "identifeye HEALTH"
                ReferencedContainer = "container:identifeye HEALTH.xcodeproj">
             </BuildableReference>
@@ -29,6 +29,30 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "45A42BD02BA4232B00440947"
+               BuildableName = "identifeye HEALTHTests.xctest"
+               BlueprintName = "identifeye HEALTHTests"
+               ReferencedContainer = "container:identifeye HEALTH.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "45A42BDA2BA4232B00440947"
+               BuildableName = "identifeye HEALTHUITests.xctest"
+               BlueprintName = "identifeye HEALTHUITests"
+               ReferencedContainer = "container:identifeye HEALTH.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -46,8 +70,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "452516202BA2699F004BB47A"
-            BuildableName = "identifeye HEALTH"
+            BlueprintIdentifier = "45A42BC02BA4232900440947"
+            BuildableName = "identifeye HEALTH.app"
             BlueprintName = "identifeye HEALTH"
             ReferencedContainer = "container:identifeye HEALTH.xcodeproj">
          </BuildableReference>
@@ -63,8 +87,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "452516202BA2699F004BB47A"
-            BuildableName = "identifeye HEALTH"
+            BlueprintIdentifier = "45A42BC02BA4232900440947"
+            BuildableName = "identifeye HEALTH.app"
             BlueprintName = "identifeye HEALTH"
             ReferencedContainer = "container:identifeye HEALTH.xcodeproj">
          </BuildableReference>

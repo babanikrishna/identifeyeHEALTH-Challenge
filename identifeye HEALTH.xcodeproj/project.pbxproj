@@ -7,33 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		452516252BA2699F004BB47A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452516242BA2699F004BB47A /* main.swift */; };
-		45A42B7B2BA395E900440947 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A42B7A2BA395E900440947 /* Patient.swift */; };
-		45A42B7D2BA3961700440947 /* PatientExamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A42B7C2BA3961700440947 /* PatientExamManager.swift */; };
+		45A42BF72BA424E900440947 /* PatientExamManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A42BF62BA424E900440947 /* PatientExamManagerTests.swift */; };
+		45A42C1B2BA425A700440947 /* PatientExamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A42C192BA425A700440947 /* PatientExamManager.swift */; };
+		45A42C1C2BA425A700440947 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A42C1A2BA425A700440947 /* Patient.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		4525161F2BA2699F004BB47A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		452516212BA2699F004BB47A /* identifeye HEALTH */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "identifeye HEALTH"; sourceTree = BUILT_PRODUCTS_DIR; };
-		452516242BA2699F004BB47A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		452516242BA2699F004BB47A /* PatientExamProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExamProcessor.swift; sourceTree = "<group>"; };
 		45A42B792BA3935400440947 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		45A42B7A2BA395E900440947 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		45A42B7C2BA3961700440947 /* PatientExamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExamManager.swift; sourceTree = "<group>"; };
+		45A42BF42BA424E900440947 /* PatientExamManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientExamManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A42BF62BA424E900440947 /* PatientExamManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExamManagerTests.swift; sourceTree = "<group>"; };
+		45A42C192BA425A700440947 /* PatientExamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExamManager.swift; sourceTree = "<group>"; };
+		45A42C1A2BA425A700440947 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4525161E2BA2699F004BB47A /* Frameworks */ = {
+		45A42BF12BA424E900440947 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				452516232BA2699F004BB47A /* identifeye HEALTH */,
+				45A42BF52BA424E900440947 /* PatientExamManagerTests */,
 				452516222BA2699F004BB47A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +46,7 @@
 		452516222BA2699F004BB47A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				452516212BA2699F004BB47A /* identifeye HEALTH */,
+				45A42BF42BA424E900440947 /* PatientExamManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +54,7 @@
 		452516232BA2699F004BB47A /* identifeye HEALTH */ = {
 			isa = PBXGroup;
 			children = (
-				452516242BA2699F004BB47A /* main.swift */,
+				452516242BA2699F004BB47A /* PatientExamProcessor.swift */,
 				45A42B7C2BA3961700440947 /* PatientExamManager.swift */,
 				45A42B7A2BA395E900440947 /* Patient.swift */,
 				45A42B792BA3935400440947 /* input.txt */,
@@ -70,25 +62,35 @@
 			path = "identifeye HEALTH";
 			sourceTree = "<group>";
 		};
+		45A42BF52BA424E900440947 /* PatientExamManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A42C192BA425A700440947 /* PatientExamManager.swift */,
+				45A42C1A2BA425A700440947 /* Patient.swift */,
+				45A42BF62BA424E900440947 /* PatientExamManagerTests.swift */,
+			);
+			path = PatientExamManagerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		452516202BA2699F004BB47A /* identifeye HEALTH */ = {
+		45A42BF32BA424E900440947 /* PatientExamManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 452516282BA2699F004BB47A /* Build configuration list for PBXNativeTarget "identifeye HEALTH" */;
+			buildConfigurationList = 45A42BF82BA424E900440947 /* Build configuration list for PBXNativeTarget "PatientExamManagerTests" */;
 			buildPhases = (
-				4525161D2BA2699F004BB47A /* Sources */,
-				4525161E2BA2699F004BB47A /* Frameworks */,
-				4525161F2BA2699F004BB47A /* CopyFiles */,
+				45A42BF02BA424E900440947 /* Sources */,
+				45A42BF12BA424E900440947 /* Frameworks */,
+				45A42BF22BA424E900440947 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "identifeye HEALTH";
-			productName = "identifeye HEALTH";
-			productReference = 452516212BA2699F004BB47A /* identifeye HEALTH */;
-			productType = "com.apple.product-type.tool";
+			name = PatientExamManagerTests;
+			productName = PatientExamManagerTests;
+			productReference = 45A42BF42BA424E900440947 /* PatientExamManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,7 +102,7 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					452516202BA2699F004BB47A = {
+					45A42BF32BA424E900440947 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -118,19 +120,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				452516202BA2699F004BB47A /* identifeye HEALTH */,
+				45A42BF32BA424E900440947 /* PatientExamManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		45A42BF22BA424E900440947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		4525161D2BA2699F004BB47A /* Sources */ = {
+		45A42BF02BA424E900440947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452516252BA2699F004BB47A /* main.swift in Sources */,
-				45A42B7D2BA3961700440947 /* PatientExamManager.swift in Sources */,
-				45A42B7B2BA395E900440947 /* Patient.swift in Sources */,
+				45A42C1B2BA425A700440947 /* PatientExamManager.swift in Sources */,
+				45A42BF72BA424E900440947 /* PatientExamManagerTests.swift in Sources */,
+				45A42C1C2BA425A700440947 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +209,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -252,27 +265,38 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = "";
 			};
 			name = Release;
 		};
-		452516292BA2699F004BB47A /* Debug */ = {
+		45A42BF92BA424E900440947 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LJW827W979;
-				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnababani.PatientExamManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4525162A2BA2699F004BB47A /* Release */ = {
+		45A42BFA2BA424E900440947 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LJW827W979;
-				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnababani.PatientExamManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -289,11 +313,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		452516282BA2699F004BB47A /* Build configuration list for PBXNativeTarget "identifeye HEALTH" */ = {
+		45A42BF82BA424E900440947 /* Build configuration list for PBXNativeTarget "PatientExamManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				452516292BA2699F004BB47A /* Debug */,
-				4525162A2BA2699F004BB47A /* Release */,
+				45A42BF92BA424E900440947 /* Debug */,
+				45A42BFA2BA424E900440947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
